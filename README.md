@@ -17,7 +17,7 @@ generated uuid. Signing in can record points in the database, and you can only s
 |6|username has existed|
 |7|internal unknown error|
 
-问题回答：
+问题回答：  
 1.有意思（虽然Gin和GORM的一些大小写规则真的很奇怪）  
 2.文档里给出的资料就基本足够，我自己找了go语言的官方文档和一些关于gin、GORM的博客  
 3.困难就是不太适应新的语言语法习惯（但我觉得多用用可能就习惯了），以及一些古怪的字段命名规则让我不知错误在何处。  

@@ -1,7 +1,11 @@
 # naive_sever
 A simple sever written with Golang
-This program use Gin,the web framework, to deal with the work with web, http and json parsing.It also use GORM to operate the database.This program implements the following functions: registration, login, and sign-in. The identity authentication token uses a randomly generated uuid. Signing in can record points in the database, and you can only sign in once a day.
-The detailed error codes' meanings:
+## Introduction
+This program use Gin,the web framework, to deal with the work with web, http and json parsing.It also use GORM to operate the database.
+This program implements the following functions: registration, login, and sign-in. The identity authentication token uses a randomly 
+generated uuid. Signing in can record points in the database, and you can only sign in once a day.
+
+## The detailed error codes' meanings
 Code|meaning
 0|Done
 1|Empty data

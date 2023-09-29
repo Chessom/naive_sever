@@ -7,6 +7,7 @@ generated uuid. Signing in can record points in the database, and you can only s
 
 ## The detailed error codes' meanings
 |Code|meaning|
+|------|------|
 |0|Done|
 1|Empty data|
 |2|not existent|

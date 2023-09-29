@@ -6,15 +6,15 @@ This program implements the following functions: registration, login, and sign-i
 generated uuid. Signing in can record points in the database, and you can only sign in once a day.
 
 ## The detailed error codes' meanings
-Code|meaning
-0|Done
-1|Empty data
-2|not existent
-3|incorrect password
-4|invalid access token
-5|repeated checkin
-6|username has existed
-7|internal unknown error
+|Code|meaning|
+|0|Done|
+1|Empty data|
+|2|not existent|
+|3|incorrect password|
+|4|invalid access token|
+|5|repeated checkin|
+|6|username has existed|
+|7|internal unknown error|
 
 问题回答：
 1.有意思（虽然Gin和GORM的一些大小写规则真的很奇怪）
